@@ -1,3 +1,5 @@
+## Notes taken while working on the app
+
 ## Folder/ Directory convention for FastAPI For Frontend
 
 1. Create your Static folder inside the project directory
