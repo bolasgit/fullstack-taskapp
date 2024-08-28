@@ -1,12 +1,13 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
-import os
-from dotenv import load_dotenv
+import dotenv
+from os import environ
 
-load_dotenv()
+dotenv.load_dotenv()
 
-POSTGRES_URL = os.getenv("POSTGRES_URL")
+# Access the variables
+POSTGRES_URL = environ.get("POSTGRES_URL")
 
 SQLALCHEMY_DATABASE_URL = POSTGRES_URL
 engine = create_engine(SQLALCHEMY_DATABASE_URL)

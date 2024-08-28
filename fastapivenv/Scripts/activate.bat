@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\Admin\Documents\Python Tools\FastAPI-The-Complete-Course-main (3)\FastAPI-The-Complete-Course-main\Project 5\Starting Files\Starting Project\TodoApp\fastapivenv
+set VIRTUAL_ENV=C:\Users\Admin\Documents\Python_Tools\fullstack_taskapp\fastapivenv
 
 if not defined PROMPT set PROMPT=$P$G
 
